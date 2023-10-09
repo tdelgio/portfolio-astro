@@ -14,7 +14,7 @@ const ProjectList = () => (
       </>
     }
   >
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 ">
       <Project
         name="SpaceX Launch Viewer"
         description="Dive into the future of space exploration with my latest project, the SpaceX Launch Viewer. Using cutting-edge technologies like Astro for lightning-fast performance and Tailwind CSS for sleek design, this web application fetches real-time data from SpaceX's API to display the most recent rocket launches."
@@ -26,7 +26,7 @@ const ProjectList = () => (
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
+            <Tags color={ColorTags.LIME}>Web</Tags>
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
           </>
@@ -67,7 +67,6 @@ const ProjectList = () => (
         category={
           <>
             <Tags color={ColorTags.ORANGE}>Blog</Tags>
-            <Tags color={ColorTags.FUCHSIA}>Gatsby.js</Tags>
             <Tags color={ColorTags.INDIGO}>Tailwind</Tags>
             <Tags color={ColorTags.ROSE}>React</Tags>
             <Tags color={ColorTags.GREEN}>Contentful</Tags>
@@ -86,7 +85,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.INDIGO}>Tailwind</Tags>
             <Tags color={ColorTags.ROSE}>React</Tags>
             <Tags color={ColorTags.GREEN}>Contentful</Tags>
-            <Tags color={ColorTags.YELLOW}>Internalization</Tags>
+            <Tags color={ColorTags.YELLOW}>i18n</Tags>
           </>
         }
       />
